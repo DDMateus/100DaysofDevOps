@@ -23,7 +23,7 @@ Specify that the alarm is triggered if the CPU usage is above 70% for two consec
 
 ![image](https://github.com/DDMateus/100DaysofDevOps/assets/88774178/46f8611c-2b3e-4d9c-a6e9-53d6fe416de0)
 
-Choose In alarm and create a new SNS topic. To create a new SNS topic, choose new list, for send notification to, type a name of SNS topic (for eg: HighCPUUtilizationThreshold) and for Email list type a comma-separated list of email addresses to be notified when the alarm changes to the ALARM state. Each email address is sent to a topic subscription confirmation email. You must confirm the subscription before notifications can be sent.
+<p align="justify">Choose In alarm and create a new SNS topic. To create a new SNS topic, choose new list, for send notification to, type a name of SNS topic (for eg: HighCPUUtilizationThreshold) and for Email list type a comma-separated list of email addresses to be notified when the alarm changes to the ALARM state. Each email address is sent to a topic subscription confirmation email. You must confirm the subscription before notifications can be sent.</p>
 
 ![image](https://github.com/DDMateus/100DaysofDevOps/assets/88774178/ab9da627-bf02-47b1-800f-d64a07f52afc)
 
