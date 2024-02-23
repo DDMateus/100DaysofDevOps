@@ -138,4 +138,24 @@ Email notification:
 
 ![image](https://github.com/DDMateus/100DaysofDevOps/assets/88774178/82e66802-6df2-4eed-aca1-f75cd267538a)
 
+##### Solution 3: To create a status check alarm via Terraform
 
+1.  Open a text editor (Visual Studio Code).
+
+```hcl
+resource "aws_cloudwatch_metric_alarm" "instance-health-check" {
+  alarm_name                = "instance-health-check"
+  comparison_operator       = "GreaterThanOrEqualToThreshold"
+  evaluation_periods        = 2
+  metric_name               = "StatusCheckFailed"
+  namespace                 = "AWS/EC2"
+  period                    = 120
+  statistic                 = "Average"
+  threshold                 = 1
+  alarm_description         = "This metric monitors ec2 health"
+  alarm_actions             = ["arn:aws:sns:us-east-1:<your AWS account>:CPUAlarm"]
+  dimensions                = {
+    InstanceId              = "random instance id"
+  }
+}
+```
