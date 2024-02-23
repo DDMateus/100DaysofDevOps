@@ -80,7 +80,7 @@ resource "aws_cloudwatch_metric_alarm" "alarm" {
   statistic           = "Average"
   threshold           = 80
   alarm_description   = "This metric monitors EC2 CPU utilization"
-  alarm_actions       = ["arn:aws:sns:us-east-1:381492302972:CPUAlarm"]
+  alarm_actions       = ["arn:aws:sns:us-east-1:<your AWS account>:CPUAlarm"]
   dimensions = {
     InstanceId        = "random instance id"
   }
