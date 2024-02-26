@@ -4,7 +4,7 @@ Welcome to my "100 Days of DevOps" challenge repository!
 
 ## Overview
 
-This repository serves as a log of my progress in completing the "100 Days of DevOps" challenge. The challenge consists of daily tasks aimed at enhancing skills and knowledge in various aspects of DevOps practices, including infrastructure as code (IaC), continuous integration and deployment (CI/CD), cloud computing, containerization, monitoring, security, and more.
+<p align="justify">This repository serves as a log of my progress in completing the "100 Days of DevOps" challenge. The challenge consists of daily tasks aimed at enhancing skills and knowledge in various aspects of DevOps practices, including infrastructure as code (IaC), continuous integration and deployment (CI/CD), cloud computing, containerization, monitoring, security, and more.</p>
 
 ## How to Use
 
