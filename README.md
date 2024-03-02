@@ -10,4 +10,4 @@ Welcome to my "100 Days of DevOps" challenge repository!
 
 ### Explore the Challenges
 
-Navigate to the [100 Days of DevOps GitHub repository](https://github.com/100daysofdevops/100daysofdevops) to discover the full list of challenges. Each challenge is designed to be completed within a single day and comes with detailed instructions, resources, and examples to guide you through the process.
+<p align="justify">Navigate to the [100 Days of DevOps GitHub repository](https://github.com/100daysofdevops/100daysofdevops) to discover the full list of challenges. Each challenge is designed to be completed within a single day and comes with detailed instructions, resources, and examples to guide you through the process.</p>
