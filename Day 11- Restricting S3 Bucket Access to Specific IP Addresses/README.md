@@ -109,7 +109,3 @@ resource "aws_s3_bucket_policy" "allow_access_from_specific_ip" {
 Policy
 }
 ```
-
-This Terraform configuration restricts access to the S3 bucket `s3-bucket-terraform99` to the specific IP address `81.84.104.133` for GetObject and PutObject actions.
-
-Feel free to adjust the IP address and bucket name according to your requirements.
